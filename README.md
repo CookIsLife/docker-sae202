@@ -28,5 +28,8 @@ To generate this message, Docker took the following steps:
     to your terminal.
 
 La phrase 1 signifie que le client docker est entrer en contacte avec le deamon docker.
-La phrase 2 signifie que le deamon docker a extrait l'image hello world du docker hub.
-La phrase 3 signifie que 
+La phrase 2 signifie que le deamon docker a extrait l'image "hello-world" du docker hub.
+La phrase 3 signifie que le deamon docker crée un nouveau conteneur a partir de l'image "hello-world" qui produit le résultat qu'on voit sur le terminal.
+La phrase 4 signifie que que le deamon docker a envoyer au client le résultat.
+
+
