@@ -1,6 +1,8 @@
 # docker-sae203
 
-TP1 - Introduction a docker
+Introduction a docker
+
+TP1 - Fonctionnement de base de Docker
 
 Pour commencer il nous faut installer docker sur notre machine personnel.
 
@@ -89,6 +91,10 @@ dans le markdown :
 - Remplace `<port_hôte>` par le port de choix sur la machine hôte, par exemple, 8080.
 - L'option `-v $(pwd):/usr/local/apache2/htdocs` crée un volume entre le dossier actuel sur la machine hôte (obtenu avec `$(pwd)`) et le répertoire `/usr/local/apache2/htdocs` dans le conteneur HTTPD. Cela signifie que tout ce qui est contenu dans le dossier local sera accessible dans le conteneur.
 En suivant ces étapes, on a créer un volume entre la machine hôte et un conteneur Docker HTTPD, ce qui nous permit de partager des fichiers et des dossiers entre les deux.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TP2 - Dockerfile pour la création d’images
 
 
 
